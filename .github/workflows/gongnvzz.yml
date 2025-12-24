@@ -2,22 +2,20 @@ name: gongnvzz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
-jobs:  # 7485
+    - cron: '52 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: gongnvzz
         env:
-          ewd3: ${{ secrets.ewd3 }}
+          fexmn29: ${{ secrets.fexmn29 }}
         run: |
-          echo $ewd3 | jq -r .a4 | /bin/bash
-          echo $tncm52406 | jq -r .nmgeu2784 | /bin/bash
-          echo $mj0 | jq -r .pqeg14361 | /bin/bash
-          echo $qcvu3 | jq -r .mgbg416 | /bin/bash
-          echo $bom7 | jq -r .wchu4027 | /bin/bash
-          echo $p52273 | jq -r .w817 | /bin/bash
-          echo $tsm84217 | jq -r .e800 | /bin/bash
-          echo $nogih31358 | jq -r .mnsmh2 | /bin/bash
+          echo $fexmn29 | jq -r .usn1091 | /bin/bash
+          echo $tsaw7 | jq -r .gazjd5890 | /bin/bash
+          echo $z14 | jq -r .wbm05 | /bin/bash
+          echo $yxs5 | jq -r .g66555 | /bin/bash
+          echo $oyv09 | jq -r .h406 | /bin/bash
 
